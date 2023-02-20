@@ -57,7 +57,7 @@ plot1
 
 ```{r title_gg1, eval=TRUE}
 titleText='How Does Electric Vehicle Use Vary by County?'
-sourceText='Source: Washington State Department of Licensing /m Note: This shows a subset of counties in Washington State of the counties with the most electric vehicles.'
+sourceText='Source: Washington State Department of Licensing \n Note: This shows a subset of counties in Washington State of the counties with the most electric vehicles.'
 
 plot2 = plot1 + labs(title=titleText,
                      x =NULL, 
